@@ -49,7 +49,7 @@ fastapi dev app.py
 Buka browser ke:  
 👉 [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
-## 🧪 Contoh JSON Input
+## 🧪 JSON Input
 
 ```json
 {
@@ -63,7 +63,7 @@ Buka browser ke:
 }
 ```
 
-## ✅ Contoh Output
+## ✅ Output
 
 ```json
 {
