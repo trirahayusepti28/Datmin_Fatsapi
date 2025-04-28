@@ -21,7 +21,7 @@ Sebuah mini-proyek berbasis **FastAPI** yang dapat memprediksi **Happiness Score
 ### 1. Clone Repositori
 
 ```bash
-git clone https://github.com/username/happiness-score-api.git
+git clone https://github.com/trirahayusepti28/happiness-score-api.git
 cd happiness-score-api
 ```
 
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 ### 4. Jalankan API
 
 ```bash
-uvicorn app:app --reload
+fastapi dev app.py
 ```
 
 ### 5. Akses Swagger UI
@@ -67,9 +67,6 @@ Buka browser ke:
 
 ```json
 {
-  "predicted_score": 7.543
+  "predicted_score": 5.806
 }
 ```
-
-> Dibuat sebagai bagian dari praktik tahap **Deployment** dalam metode **CRISP-DM**.  
-> Proyek ini dapat dijadikan dasar pengembangan API prediksi sederhana lainnya.
